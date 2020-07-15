@@ -1,8 +1,7 @@
 /*
 There is an array of numbers from 1 to 100 which are not in order. Sort the array in O(N) complexity
 */
-
-function sortArray(inputArray, length) {
+const sortArray = (inputArray, length) => {  
     for (let i = 0; i < length; i++) {
         inputArray[i] = i+1;
     }
