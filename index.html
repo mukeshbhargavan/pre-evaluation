@@ -7,7 +7,42 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 </head>
+<style>
+body {
+  font-family: verdana;
+  font-size: 13px;
+  line-height: 40px;
+}
+.container {
+  margin: 10px 10px 10px 20px;
+}
+</style>
 <body>
+
+  <div class="container">
+      1. Given an array, rotate the array to the right by k steps, where k is non-negative.<br/>
+      <b>Input</b>: [1,2,7,8,9] & k=3 (3 steps), <b>Excepted Output</b>: [7,8,9,1,2]]<br/>
+      <b>Actual output:</b> <span id="rotateArray"></span>
+    <hr size='1'>
+  </div>
+
+  <div class="container">
+      2. Given a binary tree, find the height of the binary tree. (Mandatory)<br/>
+      <b>Input:</b> [9, 4, 17, 3, 6, 22, 5, 7, 20], <b>Excepted Output:</b> Height of the tree<br/>
+      <img src="bts.png" height="150">
+      <br/><b>Actual output:</b> <span id="bts"></span>
+    <hr size='1'>
+  </div>
+
+  <div class="container">
+      3. There is an array of numbers from 1 to 10 which are not in order. Sort the array in O(N) complexity<br/>
+      <b>Input:</b> [10, 7, 9, 2, 8, 3, 5, 4, 6, 1]<br/>
+      <b>Actual output:</b> <span id="sort"></span>
+    <hr size='1'>
+  </div>
+
   <script src="js/rotate-array.js"></script>
+  <script src="js/binary-tree.js"></script>
+  <script src="js/sort-array.js"></script>
 </body>
 </html>
